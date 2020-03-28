@@ -47,6 +47,7 @@ exports.delete = async (req, res) => {
         .first()
 
         if (incident.ong_id !== ong_id) return res.status(401).json({ error: 'Operation not permitted.'})
+        if(!incident) return res.status(400).json({ error: 'case do not exist.' })
 
         await connection('incidents').where('id', id).delete()
 
