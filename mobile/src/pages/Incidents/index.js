@@ -13,7 +13,7 @@ export default function Incidents() {
     const [incidents, setIncidentes] = useState([])
     const navigation = useNavigation()
     const [total, setTotal] = useState(0)
-    const [paga, setPage] = useState(1)
+    const [page, setPage] = useState(1)
     const [loading, setLoading] = useState(false)
 
     function navigateToDetail(incident) {
