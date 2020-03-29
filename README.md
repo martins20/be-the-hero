@@ -2,12 +2,9 @@
   <img src=".github/logo.svg" width="200px" />
   <br/>
   <img src=".github/rocket.svg" width="200px" />
-  <br/>  
 </h1>
 
 <h2 align='center'>
-    <br/>
-    <br/>
     🚀 Semana Omnistack 11.0
 </h2>
 
