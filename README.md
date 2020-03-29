@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src=".github/logo.svg" width="200px" />
   <br/>
-  <img src=".github/rocket.svg" width="200px" />
+  <img src=".github/rocket.svg" width="150px" />
 </h1>
 <h2 align='center'>
     🚀 Semana Omnistack 11.0
